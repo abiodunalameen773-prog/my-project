@@ -1,0 +1,16 @@
+@echo off
+echo Git Commands to Deploy Royal Gate Hotel
+echo ========================================
+echo.
+echo Run these commands one by one:
+echo.
+echo git init
+echo git add .
+echo git commit -m "Initial commit - Royal Gate Hotel website"
+echo git branch -M main
+echo git remote add origin https://github.com/YOURUSERNAME/royal-gate-hotel.git
+echo git push -u origin main
+echo.
+echo Replace YOURUSERNAME with your actual GitHub username
+echo.
+pause
